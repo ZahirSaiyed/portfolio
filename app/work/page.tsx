@@ -10,9 +10,10 @@ export default function Work() {
           How I think about product.
         </p>
         <p className="intro">
-          I lead product for enterprise platforms at Capital One, large-scale systems
-          with high operational risk and thousands of users. These are the decisions that shaped
-          how I work.
+          Three years shipping product inside a regulated bank at scale. Real constraints:
+          compliance, legacy systems, operational risk. Real outcomes: $20M in additional monthly
+          recoveries, analytics rebuilt for 100+ teams, a platform modernized for 1,000+ agents.
+          These are the decisions behind those numbers.
         </p>
       </div>
 
@@ -100,8 +101,7 @@ export default function Work() {
 
       {/* Footer note */}
       <p className="meta animate animate-5" style={{ marginTop: '2rem' }}>
-        These are intentionally brief. Happy to go deep on any of them.{' '}
-        <a href="mailto:zahirsaiyed72@gmail.com">Get in touch</a>.
+        These are intentionally brief. Happy to go deep on any of them.
       </p>
     </>
   )

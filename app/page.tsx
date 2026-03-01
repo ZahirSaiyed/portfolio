@@ -59,7 +59,7 @@ export default function Home() {
           </div>
         </div>
         <p className="intro animate animate-2">
-          Hey! I am a PM at Capital One leading enterprise platform modernization
+          Hey! I am a PM at Capital One leading an enterprise platform modernization
           for 1,000+ agents. Outside of work, I ship products, make music, and love to cook.
           Graduated from CMU in 2023 with majors in Information Systems and Statistics.
         </p>
