@@ -1,58 +1,28 @@
-# FOLK / OS Portfolio
+# Zahir's Portfolio
 
-A personal operating system built from cultural memory. Vernacular modernism combining OS discipline with hand-painted signage, street logic, and expressive typography.
+My personal portfolio — a place for all the things I make and care about.
 
-## Design Philosophy
+Built with Next.js 14, TypeScript, and plain CSS. No component libraries, no animation packages. Just clean code and good fonts.
 
-Three non-negotiable rules:
-1. Clarity beats cleverness
-2. Decoration serves function
-3. Typography is the interface
+## What's here
 
-## Getting Started
+- **Work** — PM case studies from Capital One (Agent Platforms, Enterprise Messaging, Recoveries)
+- **Projects** — 7 builds across AI, iOS, and browser art
+- **Music** — Electronic music I make in Ableton, just for fun
+- **Food** — Things I've cooked and baked for the people around me
 
-```bash
-npm install
-npm run dev
-```
+## Stack
 
-Open [http://localhost:3000](http://localhost:3000) to view the site.
+- Next.js 14 (App Router)
+- TypeScript
+- CSS custom properties for the full design system
+- Content managed via JSON files in `/data`
+- Photos in `/public/images`
 
-## Structure
+## Design
 
-- `/app` - Next.js pages and layouts
-- `/components` - Reusable components (Signboard, Navigation, etc.)
-- `/data` - JSON files for content management
-- `/public/images` - Static assets (cooking photos)
-
-## Content Management
-
-Edit the JSON files in `/data` to update content:
-- `work.json` - Capital One highlights (industrial documentation format)
-- `projects.json` - Side projects (experiments format)
-- `music.json` - SoundCloud tracks (objects format)
-- `cooking.json` - Cooking logs (instructional framing)
-- `education.json` - Education history
-
-### Adding Images
-
-Place cooking images in `/public/images/cooking/` and reference them in `cooking.json`:
-```json
-{
-  "image": "/images/cooking/your-image.jpg"
-}
-```
-
-If an image is missing, a placeholder will be shown.
-
-## Design System
-
-- **Colors**: Paper Cream, Signal Red, Emerald Green, Mustard Yellow, Ink Black
-- **Typography**: Inter/IBM Plex Sans (system), bold rounded grotesk/slab (display)
-- **Layout**: Signboard logic - boxes within boxes, clear borders
-- **Interactions**: Mechanical animations (slide-ins, hard cuts, stamp reveals)
+Dark editorial palette. Fraunces for display type, DM Sans for body, Syne for labels. Amber gold accent on near-black.
 
 ## Deployment
 
-Ready for Vercel or Netlify deployment.
-
+Deployed on Railway. Live at [zahirsaiyed.com](https://zahirsaiyed.com) (or wherever it ends up).
