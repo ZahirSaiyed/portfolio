@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Crisp",
+    "role": "Founder & Product Builder",
+    "tags": ["AI", "Real-time Audio", "Next.js", "Deepgram", "Gemini"],
+    "problem": "People lack real-time feedback on how they communicate. Most coaching happens after the fact, if at all.",
+    "attempt": "Built a full-stack AI communication coach with real-time audio capture, Deepgram transcription, Gemini-powered analysis, and custom speech scoring. Shipped an MVP in weeks and iterated on real usage across interviews, presentations, and everyday conversations.",
+    "learning": "Users care more about the feedback loop than the feature set. Privacy-first architecture turned out to be a product advantage.",
+    "link": "https://crisp.up.railway.app/"
+  },
+  {
+    "name": "Node",
+    "role": "Built with Charles Mansfield",
+    "tags": ["Contact Intelligence", "Next.js", "Prisma", "Gmail API", "OAuth"],
+    "problem": "Your network lives in your inbox but there is no way to query it. CRMs require manual upkeep nobody does.",
+    "attempt": "Built a contact intelligence platform that connects Gmail and Outlook via OAuth, parses email history, and scores relationships by recency, frequency, and thread depth. No manual entry required.",
+    "learning": "Relationship scoring needs a decay function, not just a count. Contacts that went cold two years ago should rank differently than contacts from last week, and getting that curve right changed the product entirely."
+  },
+  {
+    "name": "docAssist",
+    "role": "Solo Builder",
+    "tags": ["AI", "Support Tooling", "Next.js", "FlexSearch", "Rules Engine"],
+    "problem": "Support agents on live calls have to context-switch between a customer, a knowledge base, and tribal knowledge about next-best-steps. That gap costs resolution time and accuracy.",
+    "attempt": "Built a real-time AI support agent with FlexSearch over a local document corpus, a rules engine that surfaces next-best-steps mid-call, and a UI designed to be readable at a glance. 5,749 lines of TypeScript.",
+    "learning": "Search relevance and recommendation quality are different problems. Getting search right got me 80% of the way. The rules engine required a completely separate design pass."
+  },
+  {
+    "name": "Andaaz",
+    "role": "Solo Builder",
+    "tags": ["iOS", "Swift", "Deepgram", "GPT-4", "SwiftUI"],
+    "problem": "Family recipes passed down verbally in Hindi-English code-switch exist nowhere in writing. When the person who holds them is gone, so is the recipe.",
+    "attempt": "Built an iOS app that records spoken recipes using Deepgram's en-IN model for Hindi-English transcription, transforms the raw transcript into a structured recipe via GPT-4, and exports a formatted PDF designed to feel like a heirloom document.",
+    "learning": "The en-IN model accuracy on code-switched speech was the whole bet. When it worked, the emotional response from early testers was immediate. That told me the problem was worth solving before anything else."
+  },
+  {
+    "name": "HyprRun",
+    "role": "Team of 3 (CMU 67-443)",
+    "tags": ["iOS", "Swift", "ML", "Spotify API", "MapKit"],
+    "problem": "Running pace and music tempo are related but no app closes the loop in a way that reflects how runners actually think about music. Curated playlists are static. BPM-matching is too narrow.",
+    "attempt": "Started from the hypothesis that BPM was the key signal. User research proved us wrong: runners described song selection in terms of vibe, not tempo. We ran structured interviews to surface three distinct run states, then crowdsourced playlists from participants for each one. Pulled audio feature metadata from every song via the Spotify API, trained a vibe classifier using Core ML on that labeled dataset, and at runtime matched tracks from the user's own Spotify library to their current run state. Built with Katie Lin and Emily Ngo.",
+    "learning": "User research didn't just validate the product -- it defined the model architecture. Starting from BPM led to a dead end. Starting from how runners actually describe music led to a three-class classifier that worked. The crowdsourced playlist approach solved data acquisition without us labeling anything by hand. That sequence -- let research define the model, not the other way around -- is something I carry into every technical project now."
+  },
+  {
+    "name": "BloomScroll",
+    "role": "Solo Builder",
+    "tags": ["iOS", "SwiftUI", "Zero Dependencies", "Behavioral Design"],
+    "problem": "Doomscrolling is a design pattern, not a character flaw. Most alternatives lecture the user or bury the positive content.",
+    "attempt": "Built a pure SwiftUI iOS app with zero third-party dependencies: a positive news feed with a content interleaving algorithm that spaces micro-actions and reflections between articles, and haptic feedback that makes engagement feel different from passive consumption.",
+    "learning": "The interleaving algorithm needed more tuning than expected because users pattern-match and skip. Zero-dependency constraint was a forcing function that made every architectural decision explicit."
+  },
+  {
+    "name": "Mandarax",
+    "role": "Solo Artist / Builder",
+    "tags": ["Browser Art", "Vanilla JS", "Procedural Audio", "Generative"],
+    "problem": "Not a product problem. A personal one, sparked by Galapagos (Vonnegut, 1985): Mandarax is an artifact that translates, classifies, and instructs without empathy. The question was whether a browser could render that.",
+    "attempt": "Built a digital artifact in vanilla JS: procedurally generated audio, a strict canonical constraint system (no first-person pronouns, no contractions, intentional latency), and a visual interface designed to feel like instrumentation rather than software. The recording at the link below documents the object in operation.",
+    "learning": "Removing product thinking entirely changed what I was willing to try. Constraints I would never accept in a product became the point. That inversion is something I deliberately bring back into product work.",
+    "link": "https://youtu.be/X6WWMDKZo8I"
+  }
+]

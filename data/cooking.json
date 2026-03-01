@@ -1,0 +1,62 @@
+[
+  {
+    "dish": "Homemade Pizza",
+    "description": "Salami, red onion, fresh basil. Still working on the char.",
+    "image": "/images/cooking/pizza.jpg"
+  },
+  {
+    "dish": "Holiday Spread",
+    "description": "Mac and cheese, creamed spinach, corn casserole, cookies. Cooked the whole thing.",
+    "image": "/images/cooking/holiday-spread.jpg"
+  },
+  {
+    "dish": "Mongolian Beef Bowl",
+    "description": "Flank steak strips, soy-hoisin, red pepper. Green onions made it.",
+    "image": "/images/cooking/mongolian-beef.jpg"
+  },
+  {
+    "dish": "Cinnamon Rolls",
+    "description": "Cream cheese glaze. Took a few tries to nail the rise.",
+    "image": "/images/cooking/cinnamon-rolls.jpg"
+  },
+  {
+    "dish": "Cheesy Garlic Bread",
+    "description": "Loaded with mozzarella and herbs. Simple but dangerous.",
+    "image": "/images/cooking/garlic-bread.jpg"
+  },
+  {
+    "dish": "Banana Pudding",
+    "description": "Homemade custard, Nilla wafer base. A crowd pleaser every time.",
+    "image": "/images/cooking/banana-pudding.jpg"
+  },
+  {
+    "dish": "Apple Bread Pudding",
+    "description": "Eaten outside, whipped cream on top. A summer thing.",
+    "image": "/images/cooking/apple-bread-pudding.jpg"
+  },
+  {
+    "dish": "Herb Focaccia",
+    "description": "Zaatar and cheese. Getting the dimple depth right is harder than it looks.",
+    "image": "/images/cooking/focaccia.jpg"
+  },
+  {
+    "dish": "Shakshuka",
+    "description": "Eggs poached in spiced tomato sauce. Cilantro on top, bread on the side.",
+    "image": "/images/cooking/shakshuka.jpg"
+  },
+  {
+    "dish": "Cake Pops",
+    "description": "Chocolate dipped, some with sprinkles. Made a whole batch for a gathering.",
+    "image": "/images/cooking/cake-pops.jpg"
+  },
+  {
+    "dish": "Masala Salmon",
+    "description": "Spiced, pan-seared, eaten way too fast.",
+    "image": "/images/cooking/masala-toast.jpg"
+  },
+  {
+    "dish": "Custard Steamed Buns",
+    "description": "Soft, pillowy, filled with custard. Added a little jam on top.",
+    "image": "/images/cooking/custard-buns.jpg"
+  }
+]

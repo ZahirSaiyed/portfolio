@@ -1,0 +1,31 @@
+.trackInfo {
+  margin-bottom: var(--spacing-md);
+}
+
+.infoRow {
+  margin-bottom: var(--spacing-sm);
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: var(--spacing-md);
+  padding-bottom: var(--spacing-xs);
+  border-bottom: 1px solid rgba(157, 78, 221, 0.3);
+}
+
+.infoRow:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.player {
+  margin-top: var(--spacing-md);
+  border: 3px solid var(--desi-pink);
+  box-shadow: 2px 2px 0px var(--cyber-black);
+}
+
+@media (max-width: 768px) {
+  .infoRow {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xs);
+  }
+}
+

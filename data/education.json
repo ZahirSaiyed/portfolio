@@ -1,0 +1,16 @@
+[
+  {
+    "institution": "University Name",
+    "degree": "Bachelor of Science in Computer Science",
+    "year": "2018",
+    "description": "Focus on software engineering and systems design"
+  },
+  {
+    "institution": "Additional Institution",
+    "degree": "Relevant Certification or Course",
+    "year": "2020",
+    "description": null
+  }
+]
+
+

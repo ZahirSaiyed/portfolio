@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Manager, Product Manager — Agent Platforms",
+    "company": "Capital One",
+    "period": "Jan 2026 – Present",
+    "context": "Led modernization of an enterprise agent platform serving 1,000+ agents across a regulated, data-sensitive environment.",
+    "whatIOwned": "Platform modernization strategy, backlog translation for 350+ workflows, data contracts and API design, prioritization across engineering, operations, risk, and compliance.",
+    "decisionsThatMattered": [
+      "Decomposing 350+ complex workflows into a parallel execution backlog across 6 teams without service disruption",
+      "Tradeoffs between modernization pace and operational risk in a highly regulated environment"
+    ],
+    "outcome": "1,000+ agents on the modernized platform with minimal disruption. Average handle time reduced by roughly 4 minutes per account.",
+    "whatILearned": [
+      "Leading in regulated environments",
+      "How small workflow decisions compound at scale"
+    ]
+  },
+  {
+    "title": "Senior Associate, PM — Enterprise Messaging",
+    "company": "Capital One",
+    "period": "Aug 2024 – Jan 2026",
+    "context": "Platform-level product for an ML-powered enterprise messaging system supporting 100+ product and marketing teams.",
+    "whatIOwned": "Product discovery, roadmap, and full redesign of self-service analytics and tooling.",
+    "decisionsThatMattered": [
+      "Identifying where campaign analytics, experimentation outputs, and actual user decision-making diverged",
+      "Which internal-facing capabilities would most reduce analyst dependency for 100+ teams"
+    ],
+    "outcome": "Teams could independently target, evaluate, and optimize cross-channel campaigns without analyst support.",
+    "whatILearned": [
+      "Building mental models for complex data systems",
+      "Self-service design at platform scale"
+    ]
+  },
+  {
+    "title": "Associate, PM — Recoveries",
+    "company": "Capital One",
+    "period": "Aug 2023 – Aug 2024",
+    "context": "Product for recoveries operations directly affecting customer balances, payment plans, and settlement flows.",
+    "whatIOwned": "Offer flow redesign, the first digital experience for customers using debt settlement providers, regulatory compliance alignment.",
+    "decisionsThatMattered": [
+      "Redesigning offer flows to align business outcomes and customer needs without compromising compliance",
+      "What the first digital experience for this segment needed to communicate to be genuinely useful"
+    ],
+    "outcome": "Roughly $20M in additional monthly recoveries while maintaining regulatory compliance.",
+    "whatILearned": [
+      "Balancing customer experience with hard business constraints",
+      "Defining first-of-kind digital experiences in regulated spaces"
+    ]
+  }
+]
