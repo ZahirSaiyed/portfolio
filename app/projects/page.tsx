@@ -10,8 +10,8 @@ export default function Projects() {
           I learn by building.
         </p>
         <p className="intro">
-          Side projects and experiments. Some shipped, some ongoing.
-          All of them teaching me something I couldn&apos;t learn any other way.
+          Products and experiments I build outside of work. Some shipped, some retired,
+          one with paying customers. All of them teaching me something I couldn&apos;t learn any other way.
         </p>
       </div>
 
