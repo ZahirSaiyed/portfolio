@@ -12,8 +12,8 @@ export default function Work() {
         <p className="intro">
           Three years shipping product inside a regulated bank at scale. Real constraints:
           compliance, legacy systems, operational risk. Real outcomes: $20M in additional monthly
-          recoveries, analytics rebuilt for 100+ teams, a platform modernized for 1,000+ agents.
-          These are the decisions behind those numbers.
+          recoveries, analytics rebuilt for 100+ teams, a platform migrated for 1,000+ agents.
+          Now I own AI strategy for Collections &amp; Recoveries. These are the decisions behind those numbers.
         </p>
       </div>
 

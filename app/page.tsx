@@ -7,14 +7,14 @@ const worlds = [
     label: 'lead @',
     title: 'Work',
     href: '/work',
-    desc: 'Manager, PM at Capital One. Enterprise platform modernization at scale, 1,000+ agents.',
+    desc: 'Manager, PM at Capital One. AI strategy for Collections & Recoveries, after migrating a platform for 1,000+ agents.',
   },
   {
     num: '02',
     label: 'build',
     title: 'Projects',
     href: '/projects',
-    desc: '7 projects across AI, iOS, and browser art. Full-stack and native, solo and in teams.',
+    desc: '8 projects across AI, iOS, and browser art. Full-stack and native, solo and in teams.',
   },
   {
     num: '03',
@@ -59,8 +59,8 @@ export default function Home() {
           </div>
         </div>
         <p className="intro animate animate-2">
-          Hey! I am a PM at Capital One leading an enterprise platform modernization
-          for 1,000+ agents. Outside of work, I ship products, make music, and love to cook.
+          Hey! I am a PM at Capital One leading AI strategy for Collections &amp; Recoveries.
+          Outside of work, I am building Tread, making music, and cooking.
           Graduated from CMU in 2023 with majors in Information Systems and Statistics.
         </p>
         <p className="intro animate animate-3">

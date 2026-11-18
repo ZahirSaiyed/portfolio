@@ -1,15 +1,31 @@
 [
   {
-    "title": "Manager, Product Manager — Agent Platforms",
+    "title": "Manager, PM — Collections & Recoveries AI Strategy",
     "company": "Capital One",
-    "period": "Jan 2026 – Present",
-    "context": "Led modernization of an enterprise agent platform serving 1,000+ agents across a regulated, data-sensitive environment.",
-    "whatIOwned": "Platform modernization strategy, backlog translation for 350+ workflows, data contracts and API design, prioritization across engineering, operations, risk, and compliance.",
+    "period": "Oct 2026 – Present",
+    "context": "AI product strategy for the Collections & Recoveries org, where operational problems are complex and every answer has to be right.",
+    "whatIOwned": "AI product strategy and roadmap, turning operational problems into working prototypes, and evals that measure whether AI answers can be trusted.",
+    "decisionsThatMattered": [
+      "Building a shared business knowledge base and evals first: 100+ workflow questions with expert-approved answers and trusted sources, scored for accuracy, completeness, and relevance",
+      "Starting with an agentic workflow to triage business control infractions, where the hours saved are clear and measurable"
+    ],
+    "outcome": "A roadmap measured in dollars recovered, operating efficiency, and customer experience. The control-triage prototype projects 1,000+ hours saved per month across 80+ controls.",
+    "whatILearned": [
+      "Evals before features",
+      "Prototypes make AI strategy concrete"
+    ]
+  },
+  {
+    "title": "Manager, PM — Collections & Recoveries Agent Servicing",
+    "company": "Capital One",
+    "period": "Jan 2026 – Oct 2026",
+    "context": "Owned the migration of an agent servicing platform for 1,000+ agents in a regulated, data-sensitive environment.",
+    "whatIOwned": "Migration strategy, decommissioning legacy infrastructure, backlog translation for 350+ workflows, data contracts and API design, prioritization across engineering, operations, risk, and compliance.",
     "decisionsThatMattered": [
       "Decomposing 350+ complex workflows into a parallel execution backlog across 6 teams without service disruption",
       "Tradeoffs between modernization pace and operational risk in a highly regulated environment"
     ],
-    "outcome": "1,000+ agents on the modernized platform with minimal disruption. Average handle time reduced by roughly 4 minutes per account.",
+    "outcome": "1,000+ agents moved to the new platform with zero service disruption. High-risk manual agent actions eliminated, cutting average handle time by roughly 4 minutes per account and manual work by 40%.",
     "whatILearned": [
       "Leading in regulated environments",
       "How small workflow decisions compound at scale"

@@ -1,11 +1,20 @@
 [
   {
+    "name": "Tread",
+    "role": "Founder & Product Builder",
+    "tags": ["Vertical SaaS", "iOS", "SwiftUI", "Next.js", "Supabase"],
+    "problem": "Mobile tire shops and mechanics run on phone calls, texts, screenshots, and memory. A job can pass through a quote, a dispatch, a tech on the road, proof photos, a receipt, and a review request, and nothing holds it together. Generic field-service software is built for bigger fleets and gets abandoned.",
+    "attempt": "Started as a dispatch tool for one mobile tire business, which still runs its day-to-day jobs on it. Grew it into Tread: one job record from first call to review request, across a Next.js and Supabase web app and a native SwiftUI iPhone app for owners and field techs. Launched both and now have 3 paying customers. I own discovery, development, and onboarding, turning operator feedback into requirements, pricing, and the roadmap.",
+    "learning": "Building for a live business meant every change landed on real jobs the same day, which forced discipline early. Keeping pricing, status rules, and receipt math on the server, with contract tests between web and iOS, is what let two clients ship fast without drifting apart. The operator's language ended up shaping the product more than any feature list did.",
+    "link": "https://treadmobile.com"
+  },
+  {
     "name": "Crisp",
     "role": "Founder & Product Builder",
     "tags": ["AI", "Real-time Audio", "Next.js", "Deepgram", "Gemini"],
     "problem": "People lack real-time feedback on how they communicate. Most coaching happens after the fact, if at all.",
-    "attempt": "Built a full-stack AI communication coach with real-time audio capture, Deepgram transcription, Gemini-powered analysis, and custom speech scoring. Shipped an MVP in weeks and iterated on real usage across interviews, presentations, and everyday conversations.",
-    "learning": "Users care more about the feedback loop than the feature set. Privacy-first architecture turned out to be a product advantage.",
+    "attempt": "Built a full-stack AI communication coach with real-time audio capture, Deepgram transcription, Gemini-powered analysis, and custom speech scoring. Shipped an MVP in weeks and iterated on real usage across interviews, presentations, and everyday conversations. Discontinued it after finding limited willingness to pay.",
+    "learning": "Users care more about the feedback loop than the feature set, and liking a product is not the same as paying for it. I test willingness to pay much earlier now, which is how I approached Tread.",
     "link": "https://crisp.up.railway.app/"
   },
   {

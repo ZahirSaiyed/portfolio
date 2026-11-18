@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Zahir Saiyed',
-  description: 'PM at Capital One. Building Crisp, making music, cooking obsessively. Based in the US.',
+  description: 'PM at Capital One. Building Tread, making music, cooking obsessively. Based in the US.',
   openGraph: {
     title: 'Zahir Saiyed',
     description: 'PM at Capital One. Builder. Music. Food.',
