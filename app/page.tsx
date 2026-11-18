@@ -14,7 +14,7 @@ const worlds = [
     label: 'build',
     title: 'Projects',
     href: '/projects',
-    desc: '7 projects across AI, iOS, and browser art. Full-stack and native, solo and in teams.',
+    desc: '8 projects across AI, iOS, and browser art. Full-stack and native, solo and in teams.',
   },
   {
     num: '03',

@@ -1,5 +1,14 @@
 [
   {
+    "name": "Tread",
+    "role": "Founder & Product Builder",
+    "tags": ["Vertical SaaS", "iOS", "SwiftUI", "Next.js", "Supabase"],
+    "problem": "Mobile tire shops run on phone calls, texts, screenshots, and memory. A job can pass through a quote, a dispatch, a tech on the road, proof photos, a receipt, and a review request, and nothing holds it together. Generic field-service software is built for bigger fleets and gets abandoned.",
+    "attempt": "Started by building a dispatch tool for one real mobile tire business, which has run its day-to-day jobs on it since. Grew it into Tread: one job record from first call to review request, with a Next.js and Supabase web app and API for operators, and a native SwiftUI iPhone app for owners and field techs at full feature parity with the web. Took the iOS app through App Store submission.",
+    "learning": "Building for a live business meant every change landed on real jobs the same day, which forced discipline early. Keeping pricing, status rules, and receipt math on the server, with contract tests between web and iOS, is what let two clients ship fast without drifting apart. The operator's language ended up shaping the product more than any feature list did.",
+    "link": "https://treadmobile.com"
+  },
+  {
     "name": "Crisp",
     "role": "Founder & Product Builder",
     "tags": ["AI", "Real-time Audio", "Next.js", "Deepgram", "Gemini"],
